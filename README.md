@@ -5,7 +5,7 @@ This Docker image will scan the Pipfile for a specified python_version, install 
 ``` toml
 # Pipfile
 [[source]]
-url = "https://pypi.python.org/simple"
+url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
 
