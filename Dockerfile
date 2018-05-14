@@ -29,7 +29,7 @@ ONBUILD COPY Pipfile.lock Pipfile.lock
 
 
 # -- Install appropriate python
-ONBUILD RUN VERSION=$(grep "python_version" Pipfile | sed 's/^.* = //' | tr -d '"') && \
+ONBUILD RUN VERSION=$(grep "python_full_version" Pipfile | sed 's/^.* = //' | tr -d '"') && \
     pyenv install $VERSION && \
     pyenv global $VERSION && \
     pip install pipenv
