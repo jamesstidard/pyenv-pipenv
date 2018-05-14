@@ -21,5 +21,5 @@ python_full_version = "3.6.5"
 # Dockerfile
 FROM jamesstidard/pyenv-pipenv
 
-RUN python --version  # Python 3.6.0
+RUN python --version  # Python 3.6.5
 ```
