@@ -14,7 +14,7 @@ name = "pypi"
 [dev-packages]
 
 [requires]
-python_version = "3.6.0"
+python_full_version = "3.6.5"
 ```
 
 ``` Dockerfile
